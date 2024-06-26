@@ -1,0 +1,76 @@
+body{
+    /* background-color: black; */
+    /* background-color: rgba(17, 24, 39, var(--tw-bg-opacity); */
+    background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
+    color: white;
+}
+#container1{
+    display: flex;
+}
+/* pdf viewer css */
+
+.child1
+{
+    /* height: 100%; */
+    width: 50%;
+    padding: 0 10px;
+    /* border: 2px solid red; */
+
+}
+.child1 #pdfviewer {
+    width: 100%;
+    height: 100%; /* Adjust the height as needed */
+}
+
+/* resume analysis starts */
+.child2
+{
+    width: 50%;
+    height: auto;
+
+    /* border: 2px solid pink; */
+    padding: 0 10px;
+}
+
+
+#skills-section {
+    display: flex; /* Makes the span elements behave as flex items */
+    flex-direction: row; /* Arranges the flex items in a row */
+    justify-content: left; /* Aligns the flex items to the left within the flex container */
+    align-items: center; /* Aligns the flex items vertically in the center */
+    width: auto; /* Allows the width of the flex container to adjust automatically */
+    padding: 3px; /* Adds padding around each skill */
+    margin: 0px; /* Removes any margin around each skill */
+    flex-wrap: wrap; /* Allows flex items to wrap to the next line if there's not enough space */
+    row-gap: 6px; /* Adds vertical gap between flex items */
+    column-gap: 8px; /* Adds horizontal gap between flex items */
+
+}
+
+
+span .skill 
+{
+    border:1px solid white;
+}
+
+
+.child3
+{
+    /* border: 1px solid lime; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.resume_vid
+{
+    /* border: 3px solid yellow; */
+    text-align: center;
+}
+
+.interview_vid
+{
+    /* border: 3px solid red; */
+    text-align: center;
+}
+

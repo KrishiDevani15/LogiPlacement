@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interview Questions</title>
+  {%load static%}
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  {% load static %}
+  <link rel="stylesheet" href="{% static '/final.css' %}" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  {% load static %}
+  <link rel="stylesheet" href="{% static '/final.css' %}" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kaushan+Script&amp;family=Oxygen:wght@300;400;700&amp;family=Poppins:wght@100&amp;display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!--Header-->
+  <header class="text-gray-400 bg-gray-900 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0" href="{% url 'landingpage' %}">
+        <span class="ml-3 text-2xl" id="title1">Logiplacement</span>
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex items-center text-base justify-center gap-5">
+        <a class="ml-5 mr-5 hover:text-white" href="{% url 'landingpage' %}">Home</a>
+        <a class="mr-5 hover:text-white" href="{% url 'prediction' %}">Prediction</a>
+        <a class="mr-5 hover:text-white" href="{% url 'resumepage' %}">Resume</a>
+        <a class="mr-5 hover:text-white" href="{% url 'learning' %}">Learning</a>
+        <!-- <a class="mr-5 hover:text-white" href="{% url 'signup' %}">signup</a> -->
+        <!-- <a class="mr-5 hover:text-white">About Us</a>
+        <a class="mr-5 hover:text-white">Contact</a> -->
+
+      </nav>
+      <!-- HTML !-->
+    </div>
+  </header>
+  <div class="bg-gray-900 py-6 sm:py-8 lg:py-12">
+    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+  
+      <div class="grid gap-x-4 gap-y-6 sm:grid-cols-2 md:gap-x-6 lg:grid-cols-3 xl:grid-cols-4">
+        <!-- product - start -->
+        <div>
+          <a href="https://drive.google.com/file/d/1XnEYzzcoStp1jpGizjEWbkkcSrO3cvhh/view" class="group mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3">
+            <img src="https://miro.medium.com/v2/resize:fit:800/1*zzTEyTwyy7jXibtqVWg84Q.gif" loading="lazy" alt="Android Development" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          </a>
+  
+          <div class="flex flex-col">
+            <span class="text-gray-500">Questions</span>
+            <a href="https://drive.google.com/file/d/1XnEYzzcoStp1jpGizjEWbkkcSrO3cvhh/view" class="text-lg font-bold text-yellow-400 transition duration-100 animate-pulse hover:text-white lg:text-xl">Android Development</a>
+          </div>
+        </div>
+        <!-- product - end -->
+  
+        <!-- product - start -->
+        <div>
+          <a href="https://drive.google.com/file/d/1xz_jHRTsJImGDT28pDvoxMIbLB5sbbeR/view?usp=sharing" class="group mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3">
+            <img src="https://govtech.cloud/assets/images/GTC_Img/Home/10-Must-Know-Cloud-Computing-Facts-of-2020.gif" loading="lazy" alt="Cloud Computing" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          </a>
+  
+          <div class="flex flex-col">
+            <span class="text-gray-500">Questions</span>
+            <a href="https://drive.google.com/file/d/1xz_jHRTsJImGDT28pDvoxMIbLB5sbbeR/view?usp=sharing" class="text-lg font-bold text-yellow-400 transition duration-100  animate-pulse hover:text-white lg:text-xl">Cloud Computing</a>
+          </div>
+        </div>
+        <!-- product - end -->
+  
+        <!-- product - start -->
+        <div>
+          <a href="https://drive.google.com/file/d/1O3hTTco2n7l8xIxBc_7T7evWf2hCqHvx/view?usp=sharing" class="group mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3">
+            <img src="https://user-images.githubusercontent.com/69011963/137184767-79a13ec7-1bb3-4341-a6da-3a149c9c159a.gif" loading="lazy" alt="Software Development" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          </a>
+  
+          <div class="flex flex-col">
+            <span class="text-gray-500">Questions</span>
+            <a href="https://drive.google.com/file/d/1O3hTTco2n7l8xIxBc_7T7evWf2hCqHvx/view?usp=sharing" class="text-lg font-bold text-yellow-400 transition duration-100  animate-pulse hover:text-white lg:text-xl">Software Development</a>
+          </div>
+        </div>
+        <!-- product - end -->
+        <div>
+          <a href="#" class="group mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3">
+            <img src="https://www.vkreate.in/storage/services_image/2019-10-02-17-55-54-5d94e4aa809b3-web-development.gif" loading="lazy" alt="Web Development" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          </a>
+  
+          <div class="flex flex-col">
+            <span class="text-gray-500">Questions</span>
+            <a href="https://drive.google.com/file/d/11QY6KmfmmN5C1L-xiaApBrc5Lf3BHGFJ/view?usp=sharing" class="text-lg font-bold text-yellow-400 transition duration-100  animate-pulse hover:text-white lg:text-xl">Web Development</a>
+          </div>
+        </div>
+  
+        <!-- product - start -->
+        <div>
+          <a href="https://drive.google.com/file/d/1f1XR4oqii1pzpfNVaIVVTzr-0FUu7aBt/view?usp=sharing" class="group mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3">
+            <img src="https://process.filestackapi.com/cache=expiry:max/8OjKACe6TNGMABSL7gIl" loading="lazy" alt="Data Science" class="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          </a>
+  
+          <div class="flex flex-col">
+            <span class="text-gray-500">Questions</span>
+            <a href="https://drive.google.com/file/d/1f1XR4oqii1pzpfNVaIVVTzr-0FUu7aBt/view?usp=sharing" class="text-lg font-bold text-yellow-400 transition duration-100  animate-pulse hover:text-white lg:text-xl">Data Science</a>
+          </div>
+        </div>
+        <!-- product - end -->
+      </div>
+    </div>
+  </div>
+  <footer class="text-gray-400 bg-gray-900 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+
+        <span class="ml-3 text-xl">LogiPlacement</span>
+      </a>
+      <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2024
+        @Logplacement —
+        <a href="#" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">BE
+          Comp</a>
+      </p>
+
+    </div>
+  </footer>
+</body>
+
+</html>
